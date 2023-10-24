@@ -1,0 +1,36 @@
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.deps.json
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.AssemblyReference.cache
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfoInputs.cache
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfo.cs
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\refint\GestionDesStagesTFYA.Shared.dll
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\Client\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\ref\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.deps.json
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.AssemblyReference.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfoInputs.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfo.cs
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.CoreCompileInputs.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\refint\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\yasse\OneDrive - Collège Montmorency\Documents\Visual Studio 2022\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\ref\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.deps.json
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\bin\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.AssemblyReference.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfoInputs.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.AssemblyInfo.cs
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.csproj.CoreCompileInputs.cache
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\refint\GestionDesStagesTFYA.Shared.dll
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\GestionDesStagesTFYA.Shared.pdb
+C:\Users\yasse\OneDrive - Collège Montmorency\GestionStages\GestionDeStages\GestionDesStagesTFYA\Shared\obj\Debug\net6.0\ref\GestionDesStagesTFYA.Shared.dll

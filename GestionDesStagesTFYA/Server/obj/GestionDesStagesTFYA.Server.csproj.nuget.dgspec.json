@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\GestionDesStagesTFYA.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\GestionDesStagesTFYA.Client.csproj",
+        "projectName": "GestionDesStagesTFYA.Client",
+        "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\GestionDesStagesTFYA.Client.csproj",
+        "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj": {
+                "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.21, 6.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj",
+        "projectName": "GestionDesStagesTFYA.Server",
+        "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj",
+        "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\GestionDesStagesTFYA.Client.csproj": {
+                "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Client\\GestionDesStagesTFYA.Client.csproj"
+              },
+              "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj": {
+                "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
+        "projectName": "GestionDesStagesTFYA.Shared",
+        "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
+        "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
