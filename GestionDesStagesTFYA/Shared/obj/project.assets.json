@@ -313,19 +313,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yasse\\.nuget\\packages\\": {}
+    "C:\\Users\\yasse\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\yasse\\source\\repos\\GestionDesStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
       "projectName": "GestionDesStagesTFYA.Shared",
-      "projectPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
+      "projectPath": "C:\\Users\\yasse\\source\\repos\\GestionDesStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
       "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\yasse\\source\\repos\\GestionDesStages\\GestionDesStagesTFYA\\Shared\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -345,7 +350,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -372,7 +383,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

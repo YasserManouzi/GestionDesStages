@@ -1,7 +1,29 @@
 ﻿@page "/authentication/{action}"
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
-<RemoteAuthenticatorView Action="@Action" />
 
-@code{
-    [Parameter] public string? Action { get; set; }
+<RemoteAuthenticatorView Action="@Action">
+    <LogOutSucceeded>
+        @{
+            Navigation.NavigateTo("/");
+        }
+    </LogOutSucceeded>
+    
+    <LoggingIn>
+        <LoadingSpinner Message="Connexion en cours..." Height="80vh" />
+    </LoggingIn>
+    <CompletingLoggingIn>
+        <LoadingSpinner Message="Finalisation de la connexion..." Height="80vh" />
+    </CompletingLoggingIn>
+    
+    <LogOut>
+        <LoadingSpinner Message="Déconnexion en cours..." Height="80vh" />
+    </LogOut>
+    <CompletingLogOut>
+        <LoadingSpinner Message="Aurevoir ! Retour à l'accueil..." Height="80vh" />
+    </CompletingLogOut>
+</RemoteAuthenticatorView>
+
+@code {
+    [Parameter] public string Action { get; set; }
+    [Inject] public NavigationManager Navigation { get; set; }
 }

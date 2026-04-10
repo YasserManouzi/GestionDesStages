@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionDesStagesTFYA.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30ebcdab5e1803dc32573c98ebdabecf272779d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionDesStagesTFYA.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionDesStagesTFYA.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

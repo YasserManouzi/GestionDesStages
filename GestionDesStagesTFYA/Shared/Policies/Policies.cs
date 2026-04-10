@@ -19,7 +19,7 @@ namespace GestionDesStagesTFYA.Shared.Policies
             return new AuthorizationPolicyBuilder()
                 .RequireAuthenticatedUser()
                 //.RequireClaim("Statut", "Milieu")
-                .RequireRole("Entreprise")
+                .RequireRole("ENTREPRISE")
                 .Build();
         }
 
@@ -29,7 +29,7 @@ namespace GestionDesStagesTFYA.Shared.Policies
             return new AuthorizationPolicyBuilder()
                 .RequireAuthenticatedUser()
                 //.RequireClaim("Statut", "Milieu")
-                .RequireRole("Etudiant")
+                .RequireRole("ETUDIANT")
                 .Build();
         }
 
@@ -39,7 +39,7 @@ namespace GestionDesStagesTFYA.Shared.Policies
             return new AuthorizationPolicyBuilder()
                 .RequireAuthenticatedUser()
                 //.RequireClaim("Statut", "Milieu")
-                .RequireRole("Coordonnateur")
+                .RequireRole("COORDONNATEUR")
                 .Build();
         }
     }

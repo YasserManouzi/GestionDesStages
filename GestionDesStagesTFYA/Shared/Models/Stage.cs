@@ -22,6 +22,8 @@ namespace GestionDesStagesTFYA.Shared.Models
         public string Description { get; set; }
 
         // Clé étrangère avec la table StageStatut
+        // Dans ton fichier Stage.cs
+        [Range(1, int.MaxValue, ErrorMessage = "Veuillez sélectionner un statut valide.")]
         public int StageStatutId { get; set; }
         // Etabir la relation 1:N avec la clé étrangère
         public StageStatut? StageStatut { get; set; }

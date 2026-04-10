@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GKKKa6ROIyoeKhVj3IWIeL+XPdRa1sYLccHR0P/BoAKduQUH1mfU/w37nfFZSI/2zprmdZvJGLdDsgVQ+1znvQ==",
+  "dgSpecHash": "oCu3kzrPZxM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj",
+  "projectFilePath": "C:\\Users\\yasse\\source\\repos\\GestionDesStages\\GestionDesStagesTFYA\\Server\\GestionDesStagesTFYA.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yasse\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\yasse\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",

@@ -30,10 +30,11 @@ namespace GestionDesStagesTFYA.Client.Pages
         public string LibelleBoutonEnregistrer { get; set; }
         
         public List<StageStatut> StageStatut { get; set; } = new List<StageStatut>();
+
+        private bool enCoursDeSauvegarde = false;
         protected override async Task OnInitializedAsync()
         {
-        
-
+            await Task.Delay(1000);
             // Appel du service pour obtenir la liste des status de stage
             StageStatut = (await StageStatutDataService.GetAllStageStatuts()).ToList();
 
@@ -41,8 +42,17 @@ namespace GestionDesStagesTFYA.Client.Pages
 
             if (!result)
             {
+                // On récupère intelligemment le premier ID disponible dans la base de données
+                // (S'il n'y a aucun statut dans la base, on met 0 par sécurité)
+                int defaultStatutId = StageStatut.Any() ? StageStatut.First().StageStatutId : 0;
+
                 // Proposer des valeurs par défaut pour un nouveau stage
-                Stage = new Stage { StageStatutId = 1, Salaire = true, DateCreation = DateTime.Now };
+                Stage = new Stage
+                {
+                    StageStatutId = defaultStatutId, // Fini le '1' codé en dur !
+                    Salaire = true,
+                    DateCreation = DateTime.Now
+                };
                 LibelleBoutonEnregistrer = "Ajouter ce nouveau stage";
             }
             else
@@ -56,6 +66,9 @@ namespace GestionDesStagesTFYA.Client.Pages
 
         protected async Task HandleValidSubmit()
         {
+            enCoursDeSauvegarde = true;
+
+            StateHasChanged();
             if (Stage.StageId == Guid.Empty) //new
             {
                 // Obtenir du tableau des revendications (CLAIMS en anglais) le Id de l'utilisateur en cours

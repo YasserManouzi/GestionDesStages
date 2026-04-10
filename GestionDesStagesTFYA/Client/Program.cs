@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
+
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
@@ -36,5 +37,7 @@ builder.Services.AddScoped<IStageDataService, StageDataService>();
 builder.Services.AddScoped<IStageStatutDataService, StageStatutDataService>();
 builder.Services.AddScoped<IEtudiantDataService, EtudiantDataService>();
 builder.Services.AddScoped<IEntrepriseDataService, EntrepriseDataService>();
+// N'oublie pas d'ajouter le using en haut du fichier : using Microsoft.AspNetCore.Identity.UI.Services;
+
 
 await builder.Build().RunAsync();

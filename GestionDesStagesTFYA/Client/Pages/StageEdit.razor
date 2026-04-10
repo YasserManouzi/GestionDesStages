@@ -3,6 +3,17 @@
 @attribute [Authorize(Policy = @GestionDesStagesTFYA.Shared.Policies.Policies.EstEntreprise)]
 @using GestionDesStagesTFYA.Shared.Models;
 
+@if (Stage == null || StageStatut == null)
+{
+  <LoadingSpinner Message="Préparation du formulaire..." />
+}
+else if (enCoursDeSauvegarde)
+{
+    <LoadingSpinner Message="Enregistrement en cours..." />
+}
+else
+{
+
 <section>
     <h3 style="background-color: black; color: white; padding: 5px 5px 5px 5px;" class="page-title">Détail des informations @(String.IsNullOrEmpty(Stage.Titre) ? "" : " | " + @Stage.Titre)</h3>
     <EditForm Model="@Stage" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
@@ -22,14 +33,19 @@
         </div>
 
         <div class="form-group row">
-        <label for="Statut" class="col-sm-3">Statut: </label>
-        <InputSelect id="Statut" class="form-control col-sm-8" @bind-Value="@Stage.StageStatutId">
-            @foreach (var statut in StageStatut)
-            {
-                <option value="@statut.StageStatutId">@statut.DescriptionStatut</option>
-            }
-        </InputSelect>
-    </div>
+    <label for="Statut" class="col-sm-3">Statut: </label>
+    <InputSelect id="Statut" class="form-control col-sm-8" @bind-Value="@Stage.StageStatutId">
+        
+        <option value="0" disabled selected>-- Sélectionnez un statut --</option>
+        
+        @foreach (var statut in StageStatut)
+        {
+            <option value="@statut.StageStatutId">@statut.DescriptionStatut</option>
+        }
+    </InputSelect>
+    
+    <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Stage.StageStatutId)" />
+</div>
 
         <div class="form-group row">
             <label for="Salaire" class=" offset-sm-3">
@@ -60,3 +76,4 @@
         <a class="btn btn-outline-primary" @onclick="@NavigateToOverview">Annuler</a>
     </EditForm>
 </section>
+}

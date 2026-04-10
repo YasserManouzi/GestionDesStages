@@ -1,0 +1,15 @@
+<div class="d-flex flex-column justify-content-center align-items-center" style="height: @Height;">
+    
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    
+    @if (!string.IsNullOrEmpty(Message))
+    {
+        <span class="fs-4 text-muted mt-3 text-center">@Message</span>
+    }
+    
+</div>
+
+@code {
+    [Parameter] public string Message { get; set; } = "Chargement en cours...";
+    [Parameter] public string Height { get; set; } = "200px";
+}

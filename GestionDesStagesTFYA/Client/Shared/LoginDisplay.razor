@@ -7,7 +7,7 @@
 <AuthorizeView>
     <Authorized>
         <a href="authentication/profile">Hello, @context.User.Identity?.Name!</a>
-        <button class="nav-link btn btn-link" @onclick="BeginSignOut">Log out</button>
+        <button class="nav-link btn btn-link" @onclick="BeginLogOut">Log out</button>
     </Authorized>
     <NotAuthorized>
         <a href="authentication/register">Register</a>
@@ -15,10 +15,13 @@
     </NotAuthorized>
 </AuthorizeView>
 
-@code{
-    private async Task BeginSignOut(MouseEventArgs args)
+@code {
+    private async Task BeginLogOut(MouseEventArgs args)
     {
+        // 1. On prépare l'application à la déconnexion
         await SignOutManager.SetSignOutState();
+        
+        // 2. On redirige vers la page de déconnexion
         Navigation.NavigateTo("authentication/logout");
     }
 }

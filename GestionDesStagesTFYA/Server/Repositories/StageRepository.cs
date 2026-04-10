@@ -16,6 +16,10 @@ namespace GestionDesStagesTFYA.Server.Repositories
 
         public Stage AddStage(Stage stage)
         {
+            if (stage.StageStatutId == 0)
+            {
+                stage.StageStatutId = 1;
+            }
             var addedEntity = _appDbContext.Stage.Add(stage);
             _appDbContext.SaveChanges();
             return addedEntity.Entity;

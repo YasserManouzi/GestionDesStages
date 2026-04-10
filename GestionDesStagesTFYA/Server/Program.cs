@@ -1,11 +1,13 @@
 using GestionDesStagesTFYA.Server.Data;
+using GestionDesStagesTFYA.Server.Interfaces;
 using GestionDesStagesTFYA.Server.Models;
+using GestionDesStagesTFYA.Server.Repositories;
+using GestionDesStagesTFYA.Server.Services;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
-using GestionDesStagesTFYA.Server.Interfaces;
-using GestionDesStagesTFYA.Server.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +41,7 @@ builder.Services.AddAuthentication()
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 
 

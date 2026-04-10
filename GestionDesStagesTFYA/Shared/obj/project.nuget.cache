@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzTvTWpiBI7Wcb6hmXIhKkhm3DzTvgzD32ZVS6mXfnw+EqRSmKxPRaL5e8ljcVt8EREsHIJnAViGc876NsfJlw==",
+  "dgSpecHash": "AqByGakd3aY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yasse\\OneDrive - Collège Montmorency\\GestionStages\\GestionDeStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
+  "projectFilePath": "C:\\Users\\yasse\\source\\repos\\GestionDesStages\\GestionDesStagesTFYA\\Shared\\GestionDesStagesTFYA.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yasse\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
     "C:\\Users\\yasse\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.9\\microsoft.aspnetcore.metadata.6.0.9.nupkg.sha512",

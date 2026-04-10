@@ -1,9 +1,23 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Accueil - Gestion des Stages</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container mt-5 text-center">
+    <h1 class="display-4">Bienvenue sur GestionDesStagesTFYA</h1>
+    <p class="lead">La plateforme officielle de mise en relation entre étudiants et entreprises.</p>
+    
+    <hr class="my-4" />
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <AuthorizeView>
+        <Authorized>
+            <div class="alert alert-success shadow-sm" role="alert">
+                Heureux de vous revoir, <strong>@context.User.Identity?.Name</strong> ! <br />
+                Utilisez le menu de gauche pour accéder à votre tableau de bord.
+            </div>
+        </Authorized>
+        <NotAuthorized>
+            <p>Veuillez vous connecter ou créer un compte pour accéder aux offres de stages.</p>
+            <a href="authentication/login" class="btn btn-primary btn-lg mt-3">Se connecter</a>
+        </NotAuthorized>
+    </AuthorizeView>
+</div>
